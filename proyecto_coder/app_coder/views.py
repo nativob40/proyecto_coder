@@ -1,3 +1,4 @@
+from re import template
 from django.http import HttpResponse
 from app_coder.models import Curso
 from django.shortcuts import render
@@ -5,6 +6,10 @@ from django.template import Template,Context,loader
 import datetime
 
 # Create your views here.
+def inicio(request):
+
+    return render(request ,'template.html')
+
 
 def curso(request):  
 

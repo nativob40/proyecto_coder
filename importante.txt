@@ -1,0 +1,3 @@
+nunca crear un repo desde la carpeta original.
+hacer una copia en otra carpeta y ahi hacer "git init nombre_del_repo"
+
